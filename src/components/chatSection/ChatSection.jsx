@@ -1,9 +1,10 @@
 import "./ChatSection.css"
+
 function ChatSection(){
     return(
-        <div>
+        <div className="chatsection">
 
         </div>
     )
 }
-export default ChatSection
+export default ChatSection;

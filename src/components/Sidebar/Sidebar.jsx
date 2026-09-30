@@ -14,13 +14,15 @@ function Sidebar(){
                // console.log(extend);
                 
         }}/>
+
+        {/* //to change state we use Hooks */}
             <div className="newchat">
               <FaPlus />
              {extend?<p>New Chat</p>:null} 
             </div>
             <div className="recent">
                 <FaRegMessage />
-                <p>who are you</p>
+              {extend? <p>who are you</p>:null}
             </div>
 
 

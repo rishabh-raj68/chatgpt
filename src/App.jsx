@@ -1,13 +1,17 @@
 import ChatSection from "./components/chatSection/ChatSection";
+import Separation from "./components/Seperation/Separation";
+
+
 import Sidebar from "./components/Sidebar/Sidebar";
 
-function App(){
-  return(
+function App() {
+  return (
     <div>
-      <Sidebar/>
-      <ChatSection/>
-
+      <Sidebar />
+      <ChatSection />
+      <Separation/>
     </div>
-  )
+  );
 }
+
 export default App;
