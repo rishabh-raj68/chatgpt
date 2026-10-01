@@ -1,4 +1,5 @@
 import ChatSection from "./components/chatSection/ChatSection";
+import Darkmode from "./components/Darkmode/Darkmode";
 import Separation from "./components/Seperation/Separation";
 
 
@@ -10,6 +11,7 @@ function App() {
       <Sidebar />
       <ChatSection />
       <Separation/>
+      <Darkmode/>
     </div>
   );
 }

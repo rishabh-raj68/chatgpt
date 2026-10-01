@@ -9,3 +9,11 @@
   display: flex;
   
 }
+.light-mode{
+  --color:black;
+ --background-color:white;
+}
+.dark-mode{
+  --color:white;
+ --background-color:rgb(23,32,33);
+}
