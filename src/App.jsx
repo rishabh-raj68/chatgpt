@@ -7,11 +7,11 @@ import Sidebar from "./components/Sidebar/Sidebar";
 
 function App() {
   return (
-    <div>
-      <Sidebar />
-      <ChatSection />
-      <Separation/>
-      <Darkmode/>
+    <div className="App">
+     <Sidebar />
+<Separation />
+<ChatSection />
+      {/* <Darkmode/> */}
     </div>
   );
 }

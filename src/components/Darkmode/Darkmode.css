@@ -1,0 +1,42 @@
+/* .dark-mode-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+
+    padding: 10px 15px;
+    cursor: pointer;
+} */
+ /* .dark-mode-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+
+    width: auto;
+    height: auto;
+    padding: 8px 15px;
+
+    font-size: 14px;
+    cursor: pointer;
+} */
+ .dark-mode-btn{
+    width:60px;
+    height:60px;
+    padding:10px;
+    border-radius:50px;
+    border:none;
+    background-color:var(--btn-background-color);
+    transition:all 0.2s;
+    cursor:pointer;
+    box-shadow:2px 2px 2px black;
+ }
+ .dark-mode-btn svg{
+    width:30px;
+    height:30px;
+    color:var(--btn-color)
+
+ }
+ .dark-mode-btn:hover{
+    background-color:var(--hover-btn-background-color);
+ }
